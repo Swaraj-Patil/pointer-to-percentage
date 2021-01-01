@@ -1,0 +1,191 @@
+/* ========================= Importing Fonts ========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/* ============================= Universal Properties ========================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width {
+    width: 100%;
+    margin: 0% 10%;
+    align-items: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    padding: 100px 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #26455e;
+}
+::-webkit-scrollbar-thumb {
+    background: #148ae4;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+}
+
+/* ============================= Universal Properties END ========================== */
+
+
+/* =========================== Average Section Styling ============================ */
+
+.average {
+    display: flex;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: url("../background.png") no-repeat center fixed;
+}
+.average .title {
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 55px;
+    text-shadow: 2px 2px 5px #111;
+}
+.average .university {
+    position: relative;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.average #university {
+    font-size: 30px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background:rgba(0, 0, 0, 0.4);
+    color: #fff;
+    appearance: none;
+    background-image: url("../dropdown.svg")no-repeat center;
+}
+.average .university select {
+
+}
+.average .average-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+.average .average-content .column-left {
+    width: calc(50% - 30px);
+}
+.average .average-content .column-right {
+    width: calc(50% - 30px);
+
+}
+.average .average-content .fields {
+    display: inline-block;
+}
+.average .average-content .fields .field {
+    height: 45px;
+    margin-right: 10px;
+}
+.average .average-content .fields .cgpa {
+    margin: 50px;
+}
+.average .average-content .fields input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    padding: 10px 10px;
+}
+.average .average-content .fields input:hover {
+    background: #dbe5fc;
+}
+.average .average-content .fields input:focus {
+    border: 1px solid #007CC7;
+}
+.average .average-content .fields .convert {
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+.average .average-content .fields .convert button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    width: 180px;
+    font-size: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    color: #fff;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.average .average-content .fields .convert button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+
+}
+.average .average-content .fields .convert button:focus {
+    outline: none;
+}
+.average .average-content .column-right .results span {
+    font-size: 45px;
+}
+
+/* =========================== Average Section ENDS ============================ */
+
+
+
+
+
+
+/* =================== Footer Section Styling ==================== */
+
+footer.footer-section{
+    background: #12232E;
+    padding: 2rem 0;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer.footer-section .social {
+    text-align: center;
+}
+footer span a {
+    color: #007CC7;
+    text-decoration: none;
+}
+footer span a:hover {
+    text-decoration: underline;
+}
+footer.footer-section .copyrights {
+    text-align: center;
+}
+footer .social a > i {
+    font-size: 22px;
+    padding: 1rem;
+    color: #d8cfcf79;
+}
+footer .social a:hover > i.fa-linkedin {
+    color: #0e76a8;
+}
+footer .social a:hover > i.fa-instagram {
+    color: #8a3ab9;
+}
+footer .social a:hover > i.fa-twitter {
+    color: #1DA1F2;
+}
+footer .social a:hover > i.fa-github {
+    color: #fff;
+}
+
+
+/* =================== Footer Section ENDS ==================== */
