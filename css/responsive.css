@@ -1,0 +1,44 @@
+/* =================== Responsive Media Query Starts ================= */
+
+@media (max-width: 1300px){
+    .average .max-width {
+        margin: 5%;
+    }
+}
+@media (max-width: 1085px){
+    .average .average-content .column-right .results span {
+        font-size: 40px;
+    }
+}
+@media (max-width: 980px){
+    .average .average-content .column-left,
+    .average .average-content .column-right {
+        width: 100%;
+    }
+    .average .average-content .fields input {
+        width: 400px;
+    }
+    .average .column-right {
+        margin: 20px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 600px){
+    
+    .average .average-content .fields input {
+        width: 300px;
+    }
+    
+}
+@media (max-width: 500px){
+    .average .average-content .column-right .results span {
+        font-size: 30px;
+    }
+}
+@media (max-width: 445px){
+    
+    .average .average-content .fields input {
+        width: 200px;
+    }
+    
+}
